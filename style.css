@@ -45,7 +45,7 @@ img {
 }
 .btn {
 	border-radius: 48px;
-	background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+	background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
 	padding: 21px 40px;
 	color: #fff;
 	font-size: 20px;
@@ -442,4 +442,23 @@ blockquote {
 	color: #ffffff99 !important;
 	font-size: 1.4rem;
 	font-weight: 400;
+}
+.footer-items .footer-support-item a:hover {
+	color: #ffffff !important;
+}
+/* *** Footer section Ends *** */
+/* *** Media Query For Mobile device *** */
+@media screen and (max-width: 767px) {
+	.navigation {
+		padding: 2rem 0;
+		height: auto;
+		flex-direction: column;
+	}
+	.navigation .nav-items {
+		flex-direction: column;
+		margin: 2rem 0;
+	}
+	#banner .container {
+		flex-direction: column-reverse;
+	}
 }
