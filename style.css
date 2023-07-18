@@ -1,0 +1,221 @@
+/* *** Add Google font *** */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* *** Global styling start *** */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.6rem;
+}
+
+p {
+	font-size: 1.8rem;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 4.8rem;
+	font-weight: 700;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #3c354f;
+}
+img {
+	max-width: 100%; /* Restrict image width to prevent extra space */
+	height: auto; /* Maintain aspect ratio */
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.btn {
+	border-radius: 48px;
+	background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+	padding: 21px 40px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	border: none;
+}
+/* *** Global styling End *** */
+/* *** Header section start *** */
+
+.navigation {
+	background: #ffffff;
+	padding: 5rem 0;
+}
+.navigation,
+.navigation .nav-items,
+.navigation .nav-items .social-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navigation {
+	height: 6rem;
+	justify-content: space-between;
+}
+
+.navigation .nav-items,
+.navigation .nav-items .social-icons {
+	gap: 2rem;
+	color: #3c354f;
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+.logo-title {
+	font-size: 3rem;
+	font-weight: 700;
+	color: #0b0223;
+	margin-left: 0.5rem;
+}
+.logo-title strong {
+	color: #ff42a5;
+}
+.logo-image {
+	width: 5rem;
+}
+.social-icons {
+	border-radius: 0.8rem;
+	padding: 1rem;
+	background: rgba(11, 2, 35, 0.1);
+}
+.social-icons {
+	border-radius: 0.8rem;
+	padding: 1rem;
+	background: rgba(11, 2, 35, 0.1);
+}
+.logo-youtube {
+	color: #f61c0d;
+}
+/* *** Navigation section end *** */
+/* *** Banner section start *** */
+#banner {
+	background-image: url(./images/banner-bg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#banner .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.banner-sub-heading {
+	color: #0b0223;
+	font-size: 4.5rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.banner-heading {
+	font-size: 7.2rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+/* !important: To make equal flex card */
+.right-content {
+	flex-shrink: 0; /* Prevent the image from shrinking */
+	max-width: 50%; /* Limit the maximum width of the image */
+}
+
+.right-content img {
+	width: 100%;
+	height: auto;
+}
+.banner-item {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+.banner-item-icon {
+	width: 24px;
+	height: 24px;
+	flex-shrink: 0;
+}
+.banner-btn-group {
+	margin-top: 4rem;
+}
+.btn-go {
+	background: #4ec5f7;
+}
+.right-content img {
+	margin-bottom: -0.7rem;
+}
+/* *** Banner section End *** */
+/* *** Header section End *** */
+
+/* *** About section Start *** */
+#about {
+	background: linear-gradient(
+		90deg,
+		rgba(255, 66, 165, 0.03) 0%,
+		rgba(255, 66, 165, 0.03) 100%
+	);
+	height: 60rem;
+	margin-bottom: 2rem;
+}
+#about .container {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 4rem;
+}
+.about-left {
+	flex-shrink: 0; /* Prevent the image from shrinking */
+	max-width: 55%; /* Limit the maximum width of the image */
+}
+.about-right {
+	text-align: right;
+}
+.primary-title {
+	font-size: 4.5rem;
+	font-weight: 700;
+	background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.body-text {
+	color: #534c64;
+	font-size: 1.6rem;
+	font-weight: 400;
+	margin: 2rem 0;
+}
+.about-btn {
+	padding: 1.5rem 4rem;
+	font-size: 1.6rem;
+}
+.about-purpose {
+	margin-top: 2rem;
+}
+.about-purpose h4 {
+	color: #534c64;
+	font-size: 1.6rem;
+	font-weight: 500;
+}
+blockquote {
+	font-size: 2rem;
+	font-weight: 500;
+	font-style: italic;
+}
