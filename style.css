@@ -282,3 +282,45 @@ blockquote {
 .img-box:hover .play-button {
 	display: block;
 }
+/* *** Gaming section end *** */
+/* *** specialty section start *** */
+.specialty-card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 5rem;
+}
+.specialty-title .colored-text {
+	background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.specialty-title {
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	font-size: 4rem;
+	font-weight: 700;
+}
+.specialty-title-two {
+	text-align: left;
+}
+.specialty-card .body-text {
+	color: #534c64;
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+.left-content .body-text {
+	margin-left: 20rem;
+	text-align: right;
+}
+.right-content .body-text {
+	margin-right: 20rem;
+}
+.specialty-image {
+	width: 80%;
+}
+.specialty-card {
+	margin-bottom: 5rem;
+}
