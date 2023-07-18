@@ -323,3 +323,123 @@ blockquote {
 	margin-bottom: 5rem;
 }
 /* *** specialty section End *** */
+/* *** Career section start *** */
+#careers {
+	background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+}
+#careers .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 5rem;
+	color: #ffffff;
+}
+#careers p,
+.careers-text {
+	color: #ffffff;
+}
+
+.career-item {
+	display: flex;
+	justify-content: space-between;
+}
+/* *** tags section Start *** */
+/* *** tags section start *** */
+#tags {
+	padding: 10rem 0;
+	background-color: #f1f1f1;
+}
+#tags .container {
+	/* display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	justify-content: center;
+	align-items: center; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2rem;
+}
+.tag {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	border-radius: 10rem;
+	padding: 0.5rem 1rem;
+	background-color: #ffffff;
+	border: 2px solid transparent;
+	transition: 0.3s all ease-in-out;
+	cursor: pointer;
+}
+.tag:hover {
+	background-color: #ffffff;
+	border-color: #ff42a5;
+}
+.tag-title {
+	color: #ff42a5;
+}
+/* *** tags section Ends *** */
+/* *** Footer section start *** */
+#footer {
+	background: #0b0223;
+	padding: 5rem 0;
+}
+#footer a {
+	color: #ffffff;
+}
+.footer-content {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.footer-items {
+	display: flex;
+	justify-content: space-between;
+	gap: 3rem;
+	margin: 2rem 0;
+}
+.footer-item .footer-nav-link {
+	font-weight: 500;
+	transition: all 0.2s ease-in-out;
+}
+.footer-item:hover .footer-nav-link {
+	color: #ff42a5 !important;
+}
+
+#footer .logo-title {
+	color: #fff;
+}
+
+.social-links {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	margin: 3rem 0;
+}
+.social-links li {
+	width: 4rem;
+	height: 4rem;
+	padding-top: 0.5rem;
+	border-radius: 100%;
+	background-color: #ff42a5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	transition: all 0.5s ease-in-out;
+}
+.social-links a {
+	font-size: 2rem;
+}
+.social-links li:hover {
+	background-color: #ffffff;
+}
+.social-links li:hover a ion-icon {
+	color: #ff42a5;
+}
+.footer-items .footer-support-item a,
+.copyright-text {
+	color: #ffffff99 !important;
+	font-size: 1.4rem;
+	font-weight: 400;
+}
