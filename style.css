@@ -311,16 +311,15 @@ blockquote {
 	font-size: 1.6rem;
 	font-weight: 400;
 }
-.left-content .body-text {
+.left-content > .specialty-body-text {
 	margin-left: 20rem;
 	text-align: right;
 }
-.right-content .body-text {
+.right-content .specialty-body-text {
 	margin-right: 20rem;
 }
-.specialty-image {
-	width: 80%;
-}
+
 .specialty-card {
 	margin-bottom: 5rem;
 }
+/* *** specialty section End *** */
