@@ -552,4 +552,32 @@ blockquote {
 		margin-right: 0;
 		text-align: center;
 	}
+	#careers .container {
+		justify-content: center;
+		flex-direction: column;
+		gap: 3rem;
+	}
+	.career-item {
+		font-size: 1.4rem;
+		gap: 5rem;
+	}
+	#tags {
+		padding: 5rem 0;
+	}
+	#tags .container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1.5rem;
+	}
+	.tag img {
+		width: 40px;
+	}
+	.tag .tag-title {
+		font-size: 1.3rem;
+	}
+
+	.tag:last-child {
+		grid-column: 1 / span 2; /* Make the item span both columns */
+		justify-self: center; /* Center the item horizontally */
+	}
 }
