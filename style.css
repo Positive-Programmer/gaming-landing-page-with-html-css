@@ -580,4 +580,14 @@ blockquote {
 		grid-column: 1 / span 2; /* Make the item span both columns */
 		justify-self: center; /* Center the item horizontally */
 	}
+
+	.footer-items {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		justify-content: center;
+		align-items: center;
+	}
+	.footer-support-items {
+		display: inline-flex;
+	}
 }
