@@ -259,8 +259,8 @@ blockquote {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
+	width: 94%;
+	height: 98%;
 	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 1.6rem;
 	opacity: 0;
@@ -613,5 +613,31 @@ blockquote {
 	}
 	.banner-heading {
 		font-size: 5.5rem;
+	}
+	.gaming-cards {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.left-content > .specialty-body-text {
+		margin-left: 0;
+		text-align: right;
+	}
+	.right-content .specialty-body-text {
+		margin-right: 0;
+	}
+	#about .container,
+	#careers .container,
+	.specialty-card {
+		gap: 2rem;
+	}
+	#about .primary-title {
+		font-size: 4rem;
+	}
+
+	#gaming {
+		margin: 5rem 0;
+	}
+
+	#tags {
+		padding: 5rem 0;
 	}
 }
