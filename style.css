@@ -512,6 +512,10 @@ blockquote {
 	blockquote {
 		font-size: 1.6rem;
 	}
+
+	#gaming {
+		margin: 5rem 0;
+	}
 	#gaming .primary-text {
 		font-size: 2.5rem;
 	}
@@ -525,5 +529,27 @@ blockquote {
 	}
 	.card .body-text {
 		font-weight: 500;
+	}
+
+	.specialty-card {
+		justify-content: center;
+		flex-direction: column;
+	}
+	.specialty-title,
+	.specialty-title .specialty-title-two {
+		font-size: 3.6rem;
+		align-items: center;
+	}
+	.left-content > .specialty-body-text {
+		margin-left: 0;
+		text-align: center;
+	}
+	.specialty-card.card-two {
+		flex-direction: column-reverse;
+		gap: 0;
+	}
+	.right-content .specialty-body-text {
+		margin-right: 0;
+		text-align: center;
 	}
 }
