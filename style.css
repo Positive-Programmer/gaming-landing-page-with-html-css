@@ -449,6 +449,9 @@ blockquote {
 /* *** Footer section Ends *** */
 /* *** Media Query For Mobile device *** */
 @media screen and (max-width: 767px) {
+	.container {
+		width: 400px;
+	}
 	.navigation {
 		padding: 2rem 0;
 		height: auto;
@@ -460,5 +463,67 @@ blockquote {
 	}
 	#banner .container {
 		flex-direction: column-reverse;
+	}
+	.right-content {
+		max-width: 95%;
+	}
+	.left-content {
+		margin-top: 2rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.banner-heading {
+		line-height: 1;
+		font-size: 6rem;
+		font-weight: 800;
+	}
+	.banner-sub-heading {
+		font-size: 3.5rem;
+	}
+	.banner-items {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+	.banner-btn-group {
+		margin-top: 0;
+		margin-bottom: 5rem;
+	}
+	.btn {
+		border-radius: 3rem;
+		padding: 1rem 2.5rem;
+		font-size: 1.6rem;
+		font-weight: 500;
+	}
+	#about .container {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.about-right {
+		text-align: center;
+	}
+	.primary-title {
+		font-size: 4rem;
+	}
+	.body-text {
+		font-size: 1.4rem;
+	}
+	blockquote {
+		font-size: 1.6rem;
+	}
+	#gaming .primary-text {
+		font-size: 2.5rem;
+	}
+	#gaming .body-text {
+		font-size: 1.2rem;
+	}
+	.gaming-cards {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.card .body-text {
+		font-weight: 500;
 	}
 }
