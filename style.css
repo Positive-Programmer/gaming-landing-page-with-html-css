@@ -261,7 +261,7 @@ blockquote {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 1.6rem;
 	opacity: 0;
 }
@@ -589,5 +589,29 @@ blockquote {
 	}
 	.footer-support-items {
 		display: inline-flex;
+	}
+}
+/* *** Media Query for Tablet devices *** */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.container {
+		width: 750px;
+	}
+	.navigation .nav-items,
+	.navigation .nav-items .social-icons {
+		gap: 1rem;
+		font-size: 1.6rem;
+	}
+	.banner-btn-group {
+		margin-top: 2rem;
+	}
+	.btn {
+		padding: 15px 30px;
+		font-size: 16px;
+	}
+	.banner-sub-heading {
+		font-size: 3.5rem;
+	}
+	.banner-heading {
+		font-size: 5.5rem;
 	}
 }
